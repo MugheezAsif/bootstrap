@@ -1,0 +1,87 @@
+.carousel-inner img {
+  width: 100%;
+  filter: brightness(60%);
+  position: relative;
+}
+@media (max-width: 768px) {
+  .game {
+    text-align: center !important;
+  }
+  .about-showcase, .services-showcase h1 {
+    font-size: 3rem !important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 1.8rem !important;
+    margin: 10px 60px !important;
+    font-weight: bold !important;
+  }
+  .collapse {
+    margin-right: 120px;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #fff;
+  }
+  .collapse a {
+    margin-right: 20px;
+    margin-top: 10px;
+    color: #fff !important;
+  }
+  .collapse a:hover {
+    font-weight: bold;
+  }
+  .dropdown-menu a {
+    color: black !important;
+  }
+  .carousel-caption {
+    top: 40vh !important;
+  }
+  .carousel-inner h5 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .carousel-inner button {
+    padding: 10px 34px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: 2px solid #fff;
+  }
+  .about-showcase, .services-showcase h1 {
+    font-size: 5rem !important;
+  }
+  .carousel-inner button:hover {
+    background-color: green !important;
+  }
+}
+.showcase-about {
+  background-image: url(pic03.jpg);
+  height: 100vh;
+  filter: brightness(60%);
+}
+.about-showcase {
+  padding-top: 40vh !important;
+  color: #fff !important;
+}
+.services-showcase {
+  background-image: url(pic04.jpg);
+  height: 100vh;
+  filter: brightness(60%);
+}
+.services-showcase h1 {
+  padding-top: 40vh !important;
+  color: #fff !important;
+}
+.services-img p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  color: #4c5863;
+}
+.services-img img {
+  border-radius: 5px;
+}
+.services-bg {
+  background-color: #ecf4f3;
+}
